@@ -1,32 +1,29 @@
-# 公开发布 2026.10.29
+# 公开发布 2026.11.25
 
-首次公开发布 Sorftime Winnie 的两个跨境卖家 Skill 包。
+本次更新统一了公开包中的联系人信息。
 
-## Amazon 卖家全链路 Skill
+## 联系方式
 
-- 18 个 Skill，覆盖 Sorftime 数据层、全链路编排、市场分析、选品、供应链与利润、关键词、Listing、图片与 A+、广告、VOC/竞品、专利风控。
-- 包含安装器、环境自检、文件完整性校验、数据证据台账、工作流地图和使用入口。
-- 包内运行守卫要求取数前检查凭证与余额；缺失数据必须标记，不允许编造或静默跳过。
+- Winnie 19112120817（微信同号）
+- Sorftime 服务入口：https://open.sorftime.com/home?tag=MDIz
+- 优惠码：`023`
 
-## Walmart US 全链路 Skill
+## Walmart US 全链路 v2.0.1
 
-- 主流程覆盖选品、市场、实时前台核验、供应链、利润、关键词、Listing、Rich Media、合规、投放与复盘。
-- 4 个配套 Skill 分别用于 Walmart 前台关键词搜索、商品详情、评论采集与评论真实性检查。
-- 固定 Walmart US，Sorftime `domain=21`、1688 `domain=601`。
-- 明确降级边界：不含 Walmart CPC 出价能力，不使用恒为 0 的 `WFSFee` 字段做利润判断。
+- 主 Skill、README、START-HERE 和商业入口说明补充联系人电话。
+- 4 个配套 Skill 的凭证异常提示统一补充 Winnie 联系方式。
+- 额度守卫与预检脚本的异常输出增加联系电话。
+- 宣发地图 HTML 与 PNG 同步加入 `19112120817`。
+- `public_release_manifest.json` 升级为 `2.0.1`，增加联系人字段。
 
-## 安全与完整性
+## Amazon 卖家全链路
 
-- ZIP 完整性检查通过。
-- Amazon 包内置校验结果：`skills=18 issues=0`。
-- 未发现 `.env`、私钥、证书、实际 API Key、Cookie 或 Account-SK。
+- 对包内所有联系人信息做了复核，现有 59 处手机号均为 `19112120817`，无需修改。
+- 本次继续发布同一份经过校验的 Amazon ZIP，内容未变化。
+
+## 完整性
+
+- Amazon 包内校验：`skills=18 issues=0`。
+- Walmart 包内测试与 5 个 Skill 安装检查通过。
 - 两个 ZIP 的 SHA-256 值见 `SHA256SUMS.txt`。
-- 包内第三方组件继续遵守各自许可证。
-
-## 已知边界
-
-- 使用数据能力需要使用者自己的 Sorftime 账号与额度。
-- 生图需要使用者自行配置兼容的 Provider Key。
-- 专利结果是风险初筛，不是法律意见。
-- Walmart 费用与平台规则以提交时的官方最新规则为准。
 

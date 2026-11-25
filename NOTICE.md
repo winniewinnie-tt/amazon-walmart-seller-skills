@@ -4,6 +4,8 @@
 
 来源署名：Sorftime Winnie
 
+联系方式：Winnie 19112120817（微信同号）
+
 包内 `SOURCE-NOTICE.md`、`GUARDRAILS.md` 与各 Skill 目录中的许可证继续有效。允许按原声明进行内部使用与转发，但不得删除来源署名、联系方式、数据服务入口或第三方许可证。
 
 ## Walmart US 全链路 Skill
@@ -22,4 +24,3 @@ MIT License 允许使用、修改、复制、分发、再许可和销售，但�
 - 使用者应自行保护 Account-SK、Cookie、Webhook 和第三方 API Key。
 - 平台数据、专利结果、利润测算和广告建议均存在边界，不应被当作平台官方结论或法律意见。
 - Sorftime 返回数据的再分发边界由使用者根据自身授权确认。
-

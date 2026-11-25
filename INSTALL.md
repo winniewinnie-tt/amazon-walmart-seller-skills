@@ -55,7 +55,7 @@ python3 verify_installed.py --dest ~/.codex/skills
 ### macOS / Linux
 
 ```bash
-unzip Sorftime-Walmart-Fullchain-Skill-Winnie-v2.0.0.zip
+unzip Sorftime-Walmart-Fullchain-Skill-Winnie-v2.0.1.zip
 bash walmart-chain-v2-tag/install.sh ~/.codex/skills
 cp -R walmart-chain-v2-tag/companion-skills/* ~/.codex/skills/
 ```
@@ -65,7 +65,7 @@ cp -R walmart-chain-v2-tag/companion-skills/* ~/.codex/skills/
 ### Windows PowerShell
 
 ```powershell
-Expand-Archive .\Sorftime-Walmart-Fullchain-Skill-Winnie-v2.0.0.zip -DestinationPath .
+Expand-Archive .\Sorftime-Walmart-Fullchain-Skill-Winnie-v2.0.1.zip -DestinationPath .
 New-Item -ItemType Directory -Force "$HOME\.codex\skills" | Out-Null
 Copy-Item -Recurse .\walmart-chain-v2-tag "$HOME\.codex\skills\walmart-chain-v2-tag"
 Copy-Item -Recurse .\walmart-chain-v2-tag\companion-skills\* "$HOME\.codex\skills"
@@ -79,6 +79,8 @@ python3 scripts/preflight_guard.py --channel auto --required 1 --json
 ```
 
 有 Sorftime MCP 时，也可以在 Agent 中先调用 `common_usage_query` 检查余额。
+
+联系方式：Winnie `19112120817`（微信同号）。
 
 ## Claude Code 与 WorkBuddy
 
@@ -120,4 +122,3 @@ cp -R walmart-chain-v2-tag/companion-skills/* ~/.workbuddy/skills/
 ### ZIP 文件名在 Windows 显示乱码
 
 优先使用 7-Zip、Bandizip 或 Windows 11 文件资源管理器解压。解压后运行 `verify_package.py` 检查 Amazon 包完整性。
-

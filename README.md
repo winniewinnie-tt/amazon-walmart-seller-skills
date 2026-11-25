@@ -7,7 +7,7 @@
 | 技能包 | 内容 | 下载 |
 |---|---|---|
 | Amazon 卖家全链路 Skill | 18 个 Skill，覆盖数据层、市场、选品、供应链、利润、关键词、Listing、图片/A+、广告、VOC、专利风控 | [下载 ZIP](https://github.com/winniewinnie-tt/amazon-walmart-seller-skills/releases/latest/download/Sorftime-Amazon-Fullchain-Skill-Winnie-2026.10.29.zip) |
-| Walmart US 全链路 Skill | 1 个主流程 Skill + 4 个前台核验配套 Skill | [下载 ZIP](https://github.com/winniewinnie-tt/amazon-walmart-seller-skills/releases/latest/download/Sorftime-Walmart-Fullchain-Skill-Winnie-v2.0.0.zip) |
+| Walmart US 全链路 Skill | 1 个主流程 Skill + 4 个前台核验配套 Skill | [下载 ZIP](https://github.com/winniewinnie-tt/amazon-walmart-seller-skills/releases/latest/download/Sorftime-Walmart-Fullchain-Skill-Winnie-v2.0.1.zip) |
 
 发布页：[查看全部版本、校验值和更新说明](https://github.com/winniewinnie-tt/amazon-walmart-seller-skills/releases)
 
@@ -26,7 +26,7 @@ python3 install.py --dest ~/.codex/skills
 ### Walmart US
 
 ```bash
-unzip Sorftime-Walmart-Fullchain-Skill-Winnie-v2.0.0.zip
+unzip Sorftime-Walmart-Fullchain-Skill-Winnie-v2.0.1.zip
 bash walmart-chain-v2-tag/install.sh ~/.codex/skills
 cp -R walmart-chain-v2-tag/companion-skills/* ~/.codex/skills/
 ```
@@ -83,5 +83,6 @@ Sorftime 注册、开通、查看账户或额度不足时：
 
 - https://open.sorftime.com/home?tag=MDIz
 - 优惠码：`023`
+- 联系方式：Winnie `19112120817`（微信同号）
 
 本仓库用于公开发布与下载，不接收或收集账号密钥。
