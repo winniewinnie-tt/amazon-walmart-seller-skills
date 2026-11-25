@@ -71,11 +71,11 @@ python3 verify_package.py
 
 ### Amazon
 
-![Amazon 卖家全链路工作流地图](media/amazon-workflow-map.png)
+![Amazon 卖家全链路工作流地图](amazon-workflow-map.png)
 
 ### Walmart US
 
-![Walmart 全链路工作流地图](media/walmart-workflow-map.png)
+![Walmart 全链路工作流地图](walmart-workflow-map.png)
 
 ## 数据服务入口
 
@@ -85,4 +85,3 @@ Sorftime 注册、开通、查看账户或额度不足时：
 - 优惠码：`023`
 
 本仓库用于公开发布与下载，不接收或收集账号密钥。
-
